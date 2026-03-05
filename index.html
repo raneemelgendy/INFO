@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="assets/Logo.png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanguard — AI-Powered Antivirus</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav">
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a href="#home" class="logo"><img src="assets/Logo.png" alt="" class="logo-icon"><span class="logo-text">VANGUARD</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#questions">Questions</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark theme">
+        <span class="theme-icon theme-icon-sun" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </span>
+        <span class="theme-icon theme-icon-moon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section id="home" class="section hero">
+      <div class="hero-bg"></div>
+      <div class="container">
+        <h1 class="hero-title main-heading">
+          <span class="line">Guardians</span>
+          <span class="line accent">Of The Digital Frontier.</span>
+        </h1>
+        <p class="hero-subtitle">Next-gen antivirus built with AI — real-time threat detection, zero-day protection, and peace of mind for your devices.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Get Vanguard</a>
+          <a href="#features" class="btn btn-ghost">See how it works</a>
+        </div>
+      </div>
+    </section>
+
+        <!-- About -->
+        <section id="about" class="section about">
+          <div class="container">
+            <h2 class="about-heading main-heading">About Us</h2>
+            <div class="about-inner">
+              <div class="about-content">
+                <p class="about-lead">Vanguard is a next-generation antivirus built with the contribution of AI — to stay ahead of threats, not just react to them.</p>
+                <p class="about-p">We combine proven security engineering with machine learning and behavioral analysis. Our AI continuously learns from global threat data to detect malware, ransomware, and zero-day attacks before they harm your device.</p>
+                <ul class="about-list">
+                  <li>AI-driven threat detection and classification</li>
+                  <li>Real-time protection with minimal impact on performance</li>
+                  <li>Privacy-first: analysis happens locally where possible</li>
+                </ul>
+              </div>
+              <div class="about-visual">
+                <img src="assets/icons/Big Logo.svg" alt="Vanguard" class="about-logo-img">
+              </div>
+            </div>
+          </div>
+        </section> 
+
+    <!-- Problem (Stats) -->
+    <div class="stats" id="problem">
+      <div class="container">
+        <h2 class="section-title main-heading">Statistics</h2>
+        <div class="stats-box">
+        <i class="stats-icon fa-solid fa-user fa-2x fa-fw" aria-hidden="true"></i>
+        <span class="stats-number">860K</span>
+        <span class="stats-label">Internet Crimes</span>
+      </div>
+      <div class="stats-box">
+        <i class="stats-icon fa-solid fa-database fa-2x fa-fw" aria-hidden="true"></i>
+        <span class="stats-number">1.3B</span>
+        <span class="stats-label">Data Breaches</span>
+      </div>
+      <div class="stats-box">
+        <i class="stats-icon fa-solid fa-globe fa-2x fa-fw" aria-hidden="true"></i>
+        <span class="stats-number">10's of millions</span>
+        <span class="stats-label">Financial Costs</span>
+      </div>
+    </div>
+  </div>
+ <!-- end stats -->
+
+
+
+
+
+
+
+
+    <!-- Features -->
+    <section id="features" class="section features our-work">
+      <div class="container">
+        <h2 class="section-title main-heading">Features</h2>
+        <ul class="our-work-filters">
+          <li class="active">All</li>
+          <li>URL Scanning</li>
+          <li>File Scanning</li>
+          <li>Email Scanning</li>
+          <li>VS Exetension</li>
+          <li>Multi Media Scanning</li>
+        </ul>
+        <div class="features-grid our-work-grid">
+          <article class="feature-card" data-work="URL Scanning">
+            <div class="feature-card-media">
+              <img src="assets/icons/URL Scann.svg" alt="URL Scanning">
+            </div>
+            <div class="feature-card-body">
+              <h3 class="feature-card-title">URL Scanning</h3>
+              <p class="feature-card-desc">Detect phishing, malicious redirects, and dangerous domains before you click.</p>
+            </div>
+          </article>
+
+          <article class="feature-card" data-work="File Scanning">
+            <div class="feature-card-media">
+              <img src="assets/icons/File.svg" alt="File Scanning">
+            </div>
+            <div class="feature-card-body">
+              <h3 class="feature-card-title">File Scanning</h3>
+              <p class="feature-card-desc">Static-first file inspection to catch malware without executing suspicious content.</p>
+            </div>
+          </article>
+
+          <article class="feature-card" data-work="Email Scanning">
+            <div class="feature-card-media">
+              <img src="assets/icons/Email.svg" alt="Email Scanning">
+            </div>
+            <div class="feature-card-body">
+              <h3 class="feature-card-title">Email Scanning</h3>
+              <p class="feature-card-desc">Spot malicious attachments and social‑engineering patterns in emails.</p>
+            </div>
+          </article>
+
+          <article class="feature-card" data-work="VS Extension">
+            <div class="feature-card-media">
+              <img src="assets/icons/code.svg" alt="VS Extension">
+            </div>
+            <div class="feature-card-body">
+              <h3 class="feature-card-title">VS Extension</h3>
+              <p class="feature-card-desc">Analyze code and dependencies to reduce supply‑chain and vulnerability risk.</p>
+            </div>
+          </article>
+
+          <article class="feature-card" data-work="Multimedia Scanning">
+            <div class="feature-card-media">
+              <img src="assets/icons/media.svg" alt="Multimedia Scanning">
+            </div>
+            <div class="feature-card-body">
+              <h3 class="feature-card-title">Multimedia Scanning</h3>
+              <p class="feature-card-desc">Detect hidden payloads and suspicious data inside images, audio, and video.</p>
+            </div>
+          </article>
+         <a href="#contact" class="btn btn-primary features-cta">Get Vanguard</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why client stick with us -->
+    <section id="why-us" class="section why-us">
+      <div class="container">
+        <h2 class="section-title main-heading">Why Users Stick With Us</h2>
+        <div class="why-grid">
+          <div class="why-item">
+            <span class="why-num">01</span>
+            <h3>AI-driven threat detection</h3>
+            <p>Machine learning identifies new and unknown malware by behavior, not just signatures.</p>
+          </div>
+          <div class="why-item">
+            <span class="why-num">02</span>
+            <h3>Always learning</h3>
+            <p>Our models improve with every new threat. You get stronger defense as the landscape evolves.</p>
+          </div>
+          <div class="why-item">
+            <span class="why-num">03</span>
+            <h3>Support when it matters</h3>
+            <p>Help with infections, quarantines, and tuning — real support, not just a knowledge base.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works (FAQ) -->
+    <section id="questions" class="section questions">
+      <div class="container questions-container">
+        <div class="questions-header">
+          <h2 class="section-title main-heading">How It Works</h2>
+          <p class="section-lead">Security is a process, not a product. Learn everything you need to know about taking the right steps to reach your destination.</p>
+        </div>
+        <div class="faq-accordion">
+          <div class="faq-accordion-item" data-faq-index="0">
+            <button type="button" class="faq-accordion-trigger" aria-expanded="false" aria-controls="faq-panel-0" id="faq-trigger-0">
+              <span class="faq-accordion-question">How is Vanguard different from traditional antivirus software?</span>
+              <span class="faq-accordion-icon" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-accordion-panel" id="faq-panel-0" role="region" aria-labelledby="faq-trigger-0" hidden>
+              <p class="faq-accordion-answer">Traditional antivirus solutions mainly rely on signature-based detection and focus on executable files only.<br><br>Vanguard goes beyond that by using AI-driven analysis to detect unknown threats, analyze code, scan URLs and emails, inspect Python libraries, and even detect hidden malicious data inside media files — all without executing suspicious content.</p>
+            </div>
+          </div>
+          <div class="faq-accordion-item" data-faq-index="1">
+            <button type="button" class="faq-accordion-trigger" aria-expanded="false" aria-controls="faq-panel-1" id="faq-trigger-1">
+              <span class="faq-accordion-question">Does Vanguard rely on running files to detect threats?</span>
+              <span class="faq-accordion-icon" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-accordion-panel" id="faq-panel-1" role="region" aria-labelledby="faq-trigger-1" hidden>
+              <p class="faq-accordion-answer">No. Vanguard follows a static-first analysis approach.<br><br>Files, code, emails, and media are analyzed without execution, preventing accidental activation of malicious payloads and keeping the user's system safe during inspection.</p>
+            </div>
+          </div>
+          <div class="faq-accordion-item" data-faq-index="2">
+            <button type="button" class="faq-accordion-trigger" aria-expanded="false" aria-controls="faq-panel-2" id="faq-trigger-2">
+              <span class="faq-accordion-question">Can Vanguard detect zero-day and previously unseen attacks?</span>
+              <span class="faq-accordion-icon" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-accordion-panel" id="faq-panel-2" role="region" aria-labelledby="faq-trigger-2" hidden>
+              <p class="faq-accordion-answer">Yes. Vanguard uses a hybrid AI framework combining deep learning and traditional machine learning.<br><br>This allows the system to recognize malicious patterns and anomalies rather than relying only on known signatures, making it effective against zero-day and emerging threats.</p>
+            </div>
+          </div>
+          <div class="faq-accordion-item" data-faq-index="3">
+            <button type="button" class="faq-accordion-trigger" aria-expanded="false" aria-controls="faq-panel-3" id="faq-trigger-3">
+              <span class="faq-accordion-question">What types of threats can Vanguard detect?</span>
+              <span class="faq-accordion-icon" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-accordion-panel" id="faq-panel-3" role="region" aria-labelledby="faq-trigger-3" hidden>
+              <p class="faq-accordion-answer">Vanguard protects against a wide range of threats, including:<br><br>• Malware and malicious executables<br>• Phishing and malicious URLs<br>• Email-based attacks and social engineering<br>• Vulnerable and malicious code<br>• Compromised Python libraries (supply-chain attacks)<br>• Hidden data and steganographic payloads in images, audio, and video<br><br>All results are correlated through a centralized analysis system for deeper insight.</p>
+            </div>
+          </div>
+          <div class="faq-accordion-item" data-faq-index="4">
+            <button type="button" class="faq-accordion-trigger" aria-expanded="false" aria-controls="faq-panel-4" id="faq-trigger-4">
+              <span class="faq-accordion-question">Who is Vanguard designed for?</span>
+              <span class="faq-accordion-icon" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-accordion-panel" id="faq-panel-4" role="region" aria-labelledby="faq-trigger-4" hidden>
+              <p class="faq-accordion-answer">Vanguard is built for users who need more than basic protection:<br><br>• Developers and IT professionals dealing with code and dependencies<br>• Security-conscious individuals handling sensitive data<br>• Small and medium-sized businesses (SMBs) that need enterprise-level protection without enterprise complexity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact us -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title main-heading">Contact Us</h2>
+        <p class="section-lead">Questions about Vanguard, licensing, or need help? Get in touch.</p>
+        <div class="contact-wrap">
+          <form class="contact-form" id="contact-form">
+            <div class="form-row">
+              <input type="text" id="name" name="name" required placeholder="Your name">
+            </div>
+            <div class="form-row">
+              <input type="email" id="email" name="email" required placeholder="you@company.com">
+            </div>
+            <div class="form-row">
+              <input type="text" id="subject" name="subject" placeholder="Sales, support, or feedback">
+            </div>
+            <div class="form-row">
+              <textarea id="message" name="message" rows="5" required placeholder="Your question or message..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Submit</button>
+          </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-accent"></div>
+    <div class="footer-bg" aria-hidden="true"></div>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo-link">
+            <img src="assets/Logo.png" alt="" class="logo-icon">
+            <span class="logo-text">VANGUARD</span>
+          </a>
+          <p class="footer-tagline">Your first line of defense in the digital world.</p>
+        </div>
+        <div class="footer-connect">
+          <span class="footer-connect-label">Follow us</span>
+          <div class="footer-social">
+            <a href="https://instagram.com/vanguard_antivirus" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/vanguard_AV" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61585750076884" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/company/vanguard-av/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+
+          <a href="#home">Home</a>
+          <a href="#problem">Problem</a>
+          <a href="#about">About</a>
+          <a href="#features">Features</a>
+          <a href="#why-us">Why Us</a>
+          <a href="#questions">Questions</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-contact"
+          <p><strong>Email</strong> support@vanguard.example</p>
+          <p><strong>Response time</strong> Usually within 24 hours</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&#169; <span id="year"></span> Vanguard. AI-powered antivirus.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
